@@ -1,0 +1,10 @@
+{
+  "name": "laravel-echo-server-setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "laravel-echo-server start"
+  },
+  "dependencies": {
+    "laravel-echo-server": "^1.6.0"
+  }
+}
