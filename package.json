@@ -2,9 +2,9 @@
   "name": "laravel-echo-server-setup",
   "main": "index.js",
   "scripts": {
-    "start": "laravel-echo-server start"
+    "start": "laravel-echo-server start --lockfile /tmp/echo.lock"
   },
   "dependencies": {
-    "laravel-echo-server": "^1.6.0"
+    "laravel-echo-server": "git+https://github.com/mhemrg/laravel-echo-server.git"
   }
 }
